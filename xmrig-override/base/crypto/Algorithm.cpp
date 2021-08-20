@@ -34,6 +34,7 @@ size_t xmrig::Algorithm::l2() const
     case RX_0:
     case RX_SFX:
     case RX_GRAFT:
+    case RX_QMR:
         return 0x40000;
 
     case RX_WOW:
@@ -83,6 +84,7 @@ size_t xmrig::Algorithm::l3() const
         case RX_0:
         case RX_SFX:
         case RX_GRAFT:
+        case RX_QMR:
             return oneMiB * 2;
 
         case RX_WOW:
