@@ -36,6 +36,7 @@ node test_rx_wow.js || exit 1
 #node test_rx_loki.js || exit 1
 node test_rx_keva.js || exit 1
 node test_rx_graft.js || exit 1
+node test_rx_qmr.js || exit 1
 node test_rx_switch.js || exit 1
 node test_ar2_chukwa.js || exit 1
 node test_ar2_chukwa2.js || exit 1
@@ -55,6 +56,7 @@ node test_perf_rx_wow.js
 #node test_perf_rx_loki.js
 node test_perf_rx_keva.js
 node test_perf_rx_graft.js
+node test_perf_rx_qmr.js
 node test_perf_rx_switch.js
 node test_perf_pico.js
 node test_perf_double.js
