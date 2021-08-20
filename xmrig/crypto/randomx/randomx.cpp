@@ -138,6 +138,11 @@ RandomX_ConfigurationGraft::RandomX_ConfigurationGraft()
   RANDOMX_FREQ_IROL_R = 3;
 }
 
+RandomX_ConfigurationQuenero::RandomX_ConfigurationQuenero()
+{
+	ArgonSalt = "RandomQ\x06";
+}
+
 RandomX_ConfigurationBase::RandomX_ConfigurationBase()
 	: ArgonMemory(262144)
         , CacheAccesses(8)
@@ -405,6 +410,7 @@ RandomX_ConfigurationKeva RandomX_KevaConfig;
 RandomX_ConfigurationScala RandomX_ScalaConfig;
 RandomX_ConfigurationScala2 RandomX_Scala2Config;
 RandomX_ConfigurationGraft RandomX_GraftConfig;
+RandomX_ConfigurationQuenero RandomX_QueneroConfig;
 
 alignas(64) RandomX_ConfigurationBase RandomX_CurrentConfig;
 
